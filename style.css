@@ -1,0 +1,54 @@
+body
+{
+	font-family: Verdana;
+	font-size: 14px;
+}
+
+form
+{
+	border:1px solid gray;
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 400px;
+	padding: 20px;
+	padding-right: 40px;
+	padding-bottom: 40px;
+}
+
+form input
+{
+	display: block;
+	height: 30px;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	width: 100%;
+}
+
+/*Custom Styles*/
+.navigate{
+	background-color: #E6E6E6;
+	border: 0px none transparent;
+	border-radius: 2px;
+	box-sizing: border-box;
+	color: rgba(0, 0, 0, 0.8);
+	cursor: pointer;
+	display: inline-block;
+	font-family: inherit;
+	font-size: 100%;
+	line-height: normal;
+	padding: 0.5em 1em;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: middle;
+	white-space: nowrap;
+	-moz-user-select: none;
+}
+
+.next{
+	float: right;
+}
+
+.prev{
+	float: left;
+}

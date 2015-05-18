@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf8"/>
+	<title>Stepy form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/ui/1.11.3/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="src/jquery.stepyform.js"></script>
+</head>
+<body>
+	<form>
+		<div class="stepy-step">
+			<h2>Step 1</h2>
+			<input type="text" placeholder="Your name">
+			<input type="text" placeholder="Your last name">
+			<input type="text" placeholder="Your email">
+		</div>
+		<div class="stepy-step">
+			<h2>Step 2</h2>
+			<input type="text" placeholder="Your phone number">
+			<input type="text" placeholder="Your address">
+			<input type="text" placeholder="Your ZIP code">
+		</div>
+		<div class="stepy-step">
+			<h2>Step 3</h2>
+			<input type="text" placeholder="Your passport number">
+			<input type="text" placeholder="Your website url">
+			<input type="text" placeholder="Your facebook url">
+			<input type="text" placeholder="Your twitter url">
+			<input type="submit" value="Send">
+		</div>
+	</form>
+	<script type="text/javascript">
+	$(function () {
+		$("form").stepyform({
+			navButtonsAttrs: {
+				"class":"navigate"
+			},
+			nextButtonsClass: "next",
+			prevButtonsClass: "prev",
+			onChangeStep: function(){
+				console.log(this)
+			}
+		})
+	})
+	</script>
+</body>
+</html>
