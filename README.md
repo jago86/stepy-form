@@ -1,4 +1,4 @@
-jQuery Stepy Form
+#jQuery Stepy Form
 
 Un sencillo plugin para dividir formularios largos en varios pasos
 
@@ -8,8 +8,8 @@ Para el uso de **jQuery Stepy Form** es necesario incluir previamente en tu cód
 
 ##Uso
 
-1. Incluye **jQuery** y **jQuery UI** en el HTML.
-2. Incluye el archivo del plugin
+1 Incluye **jQuery** y **jQuery UI** en el HTML.
+2 Incluye el archivo del plugin
 
 ```html
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
@@ -17,7 +17,7 @@ Para el uso de **jQuery Stepy Form** es necesario incluir previamente en tu cód
     <script type="text/javascript" src="src/jquery.stepyform.js"></script>
 ```
 
-3. Divide el contenido de tu formulario en divs, uno por cada paso. Cada div debe tener asignada la clase **stepy-step**
+3 Divide el contenido de tu formulario en divs, uno por cada paso. Cada div debe tener asignada la clase **stepy-step**
 
 ```html
 <form>
@@ -43,7 +43,7 @@ Para el uso de **jQuery Stepy Form** es necesario incluir previamente en tu cód
 </form>
 ```
 
-4. Inicializa el plugin
+4 Inicializa el plugin
 ```javascript
 $("form").stepyform();
 ```
