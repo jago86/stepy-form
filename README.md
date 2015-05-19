@@ -2,7 +2,7 @@
 
 Un sencillo plugin para dividir formularios largos en varios pasos
 
-## Requisistos
+## Requisitos
 
 Para el uso de **jQuery Stepy Form** es necesario incluir previamente en tu código la librería **jQuery** y **jQueryUi**.
 

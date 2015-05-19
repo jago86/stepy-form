@@ -1,3 +1,12 @@
+/*!
+ * Stepy step v0.1.0
+ * https://github.com/jago86/stepy-form.git
+ *
+ * Copyright (c) 2015 Jairo Ushiña
+ * Released under the MIT license
+ *
+ * Date: 2015-05-19T17:22:50
+ */
 (function( $ ) {
 	var methods = {
 		init : function() { 
