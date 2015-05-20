@@ -104,3 +104,32 @@ Establece una clase que se añade a todos los botones **Siguiente**.
     Default: null
 
 Establece una función que se ejecuta cuando termina la transición de un paso a otro. Usando la palabra reservada **this** dentro de esta función se obtiene el elemento DOM del div del paso actual.
+
+##Métodos
+Los métodos se pueden invocar con la siguiente sintaxis:
+
+```javascript
+$("form").stepyform("nombreDelMetodo", parametros)
+```
+
+###goStep(step)
+-**step**
+    -Tipo: int
+    -Entero que indica el paso a donde saltar
+
+Salta hacia un determinado paso
+
+```javascript
+$("form").stepyform("goStep", 3)
+```
+
+###goStepOfElement(selector)
+-**selector**
+    -Tipo: string
+    -Selector jQuery de un elemento del formulario 
+
+Salta hacia el paso que contiene el elemento indicado mediante el parametro **selector**
+
+```javascript
+$("form").stepyform("goStepOfElement", "#user-email")
+```
