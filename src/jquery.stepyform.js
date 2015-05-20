@@ -1,5 +1,5 @@
 /*!
- * Stepy step v0.1.0
+ * Stepy step v0.2.1
  * https://github.com/jago86/stepy-form.git
  *
  * Copyright (c) 2015 Jairo Ushiña
