@@ -113,9 +113,9 @@ $("form").stepyform("nombreDelMetodo", parametros)
 ```
 
 ###goStep(step)
--**step**
-    -Tipo: int
-    -Entero que indica el paso a donde saltar
+- **step**:
+    - Tipo: int 
+    - Entero que indica el paso a donde saltar
 
 Salta hacia un determinado paso
 
@@ -124,9 +124,9 @@ $("form").stepyform("goStep", 3)
 ```
 
 ###goStepOfElement(selector)
--**selector**
-    -Tipo: string
-    -Selector jQuery de un elemento del formulario 
+- **selector**:
+    - Tipo: string
+    - Selector jQuery de un elemento del formulario 
 
 Salta hacia el paso que contiene el elemento indicado mediante el parametro **selector**
 
